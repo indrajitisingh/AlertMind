@@ -54,3 +54,17 @@ The SOC monitoring infrastructure is fully operational with successful log colle
 - Develop custom detection rules.
 - Validate detection events using generated telemetry.
 - Begin implementation of the AI-assisted SOC analysis module.
+
+---
+
+## Week 3 – Detection Rule Development (In Progress)
+
+### Objective
+Begin implementation of custom detection rules for AlertMind.
+
+### Progress
+- Created the first custom Wazuh detection rule.
+- Updated the `local_rules.xml` configuration.
+- Restarted and verified the Wazuh Manager.
+- Began testing custom detections using Windows command-line activity.
+- Detection validation is currently in progress.
