@@ -57,14 +57,68 @@ The SOC monitoring infrastructure is fully operational with successful log colle
 
 ---
 
-## Week 3 – Detection Rule Development (In Progress)
 
-### Objective
-Begin implementation of custom detection rules for AlertMind.
+# 📅 Week 3 Progress Log
 
-### Progress
-- Created the first custom Wazuh detection rule.
-- Updated the `local_rules.xml` configuration.
-- Restarted and verified the Wazuh Manager.
-- Began testing custom detections using Windows command-line activity.
-- Detection validation is currently in progress.
+## 🎯 Objective
+Develop, implement, and validate custom Wazuh detection rules for the AlertMind SIEM project to detect suspicious Windows command-line activities.
+
+---
+
+## ✅ Tasks Completed
+
+- Developed and implemented **10 custom detection rules** in Wazuh.
+- Updated the **local_rules.xml** configuration file with custom detection logic.
+- Restarted the Wazuh Manager to apply the new rule configuration.
+- Successfully tested all custom rules using Windows command-line activities.
+- Verified alert generation for:
+  - whoami
+  - ipconfig
+  - hostname
+  - netstat
+  - cmd.exe
+  - powershell.exe
+  - certutil.exe
+  - nslookup
+  - ping
+  - net localgroup
+- Confirmed successful alert generation in the Wazuh Dashboard.
+- Captured screenshots for documentation and GitHub repository.
+
+---
+
+## 🔍 Challenges Faced
+
+- Initial issues with custom rule syntax and alert triggering.
+- Rule IDs and field matching required multiple revisions.
+- Fine-tuned rule conditions to eliminate false positives and ensure successful detection.
+
+---
+
+## 💡 Key Learnings
+
+- Understood the workflow of developing custom Wazuh detection rules.
+- Learned how Sysmon logs are processed and correlated by Wazuh.
+- Gained practical experience in Windows attack detection and alert validation.
+- Improved knowledge of SIEM rule tuning and event analysis.
+
+---
+
+## 📊 Current Status
+
+🟢 **Completed**
+
+All planned custom detection rules have been successfully implemented, validated, and documented for the AlertMind project.
+
+---
+
+## 🚀 Plan for Week 4
+
+- Develop the **Daily SOC Briefing Dashboard**.
+- Create visualizations for:
+  - Total Alerts
+  - Top Triggered Rules
+  - Top Agents
+  - Alerts Over Time
+- Organize project documentation and GitHub repository.
+- Prepare dashboard screenshots for the final report.
