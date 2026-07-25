@@ -2,5 +2,3 @@
 
 <img width="1280" height="800" alt="100101_whoami" src="https://github.com/user-attachments/assets/ca621c2e-98b5-4c15-a83d-53beba6ce97e" />
 
-
-
