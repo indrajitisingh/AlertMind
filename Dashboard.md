@@ -42,4 +42,4 @@ This dashboard helps analysts identify which ATT&CK tactics and techniques are m
 
 ## Dashboard Evidence
 
-The screenshots stored in this directory demonstrate the successful implementation of both dashboards within the Wazuh SIEM environment.
+The screenshots stored in Screenshot folder .
